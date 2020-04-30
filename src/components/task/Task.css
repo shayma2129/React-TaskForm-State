@@ -1,0 +1,37 @@
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css");
+@import url("https://www.w3schools.com/w3css/4/w3.css") ;
+.task {
+    width: 32%;
+    justify-content: space-around;
+    display: flex;
+    height: 38px;
+    margin-left: 35%;
+    margin-bottom: 4%;
+    border-radius: 25%;
+    border-color: black;
+
+}
+
+.details-container{
+    display: flex;
+    justify-content: space-around;
+}
+.actions {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.actions  .button-task-warning{
+        background-color: rgb(233, 58, 4);
+        border: none;
+        width: 5pc;
+        margin-right: 10px;
+        border-radius: 5%;
+        color: white;}
+.actions  .button-task-success{
+        background-color: rgb(43, 153, 9);
+        border: none;
+        width: 5pc;
+        margin-right: 10px;
+        border-radius: 5%;
+        color: white;}
